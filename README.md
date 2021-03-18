@@ -1,5 +1,11 @@
 # Readme-generator
+building a professional style readme 
 
+## Tech used
+* javascript
+* node.js
+* npm - inquirer
+* npm - file system
 
 
 ## User Story

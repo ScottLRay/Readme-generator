@@ -38,26 +38,26 @@ function generateMarkdown(data) {
   
 
 
-* [table of contents](#table-of-contents)
+## Table of Contents
 ${renderLicenseLink(data.license)}
 * [installation](#installation)
 * [description](#description)
 * [usage](#usage)
-*[contribution](#contribution)
+* [contribution](#contribution)
 
 ${renderLicenseSection(data.license)}
 
-  ## installation
-  \`\`\`
-   ${data.installation}
-  \`\`\`
-  ## description \n ${data.description}
+## installation
+\`\`\`
+${data.installation}
+\`\`\`
+## description \n ${data.description}
 
-  ## usage \n ${data.usage}
+## usage \n ${data.usage}
 
-  ## contribution\n ${data.contribution}
+## contribution\n ${data.contribution}
 
-  <small><i>If you have anyquestions vist my github<a href='${data.userName}'></a> or email me at ${data.eMail} </i></small>
+<small><i>If you have anyquestions vist my github<a href='https://github.com/${data.userName}'></a> or email me at ${data.eMail} </i></small>
 `;
 }
 
